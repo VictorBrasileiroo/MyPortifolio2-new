@@ -1,7 +1,7 @@
 # **Meu Portifólio**
 <hr/>
 <img src="https://raw.githubusercontent.com/VictorBrasileiroo/APIPortifolio/main/assets/id-6/img.svg" alt="">
-<h3><a href='https://app.netlify.com/sites/portifoliovictorbrasileiro/deploys'>Clique aqui para visitar o site</a></h3>
+<h3><a href='https://portifoliovictorbrasileiro.netlify.app/'>Clique aqui para visitar o site</a></h3>
 <hr/>
 
 ## Índice
