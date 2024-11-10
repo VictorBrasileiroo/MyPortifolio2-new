@@ -1,0 +1,20 @@
+@import "../../components/Projects/projectsarea";
+
+.containerProjects{
+    display: flex;
+    position: relative;
+}
+
+.contentProjects{
+    padding-left: 120px;
+    width: 98vw;
+    height: 100vh;
+    box-sizing: border-box;
+
+    @include responsive (s) {
+        padding-left: 0;
+    }
+    @include responsive(m){
+        padding-left: 20px;
+    }	
+}

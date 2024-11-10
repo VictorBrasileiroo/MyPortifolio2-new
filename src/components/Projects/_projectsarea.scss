@@ -1,0 +1,141 @@
+.projectsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 32px;
+    gap: 24px;
+
+    @include responsive (s) {
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0px 48px;
+    }	
+        
+
+    h1 {
+        color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 56px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .projectArea {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @include responsive (s) {
+            justify-content: flex-start;
+            position: relative;
+            left: -10%;
+        }	
+
+        .cardGrid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsivo */
+            gap: 50px;
+            width: 100%; 
+
+            ul {
+                display: contents; 
+            }
+
+            .card {
+                padding: 16px;
+                background-color: black;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 16px;
+                justify-content: center;
+                border-radius: 1rem;
+                overflow: hidden;
+
+                .cardImage {
+                    padding-left: 10px;
+                    width: 100%;
+                    height: 200px;
+                    overflow: hidden;
+                    border-radius: 1rem;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .cardContent {
+                    padding: 16px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+
+                    h3 {
+                        color: #FFF;
+                        font-family: Montserrat;
+                        font-size: 24px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                    }
+
+                    p {
+                        color: #FFF;
+                        font-family: Inter;
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+
+                    .tecsContainer {
+                        margin: 10px 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 1rem;
+
+                        span{
+                            color: #FFF;
+                            font-family: Inter;
+                            font-size: 16px;
+                            font-weight: 600;
+                        }
+                    }
+
+                    .buttonsContainer {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 1rem;
+
+                        a {
+                            text-decoration: none;
+                            padding: 8px 24px;
+                            border: none;
+                            border-radius: 0.4rem;
+                            background-color: #17aa37;
+                            color: #fff;
+                            font-family: Montserrat;
+                            font-size: 16px;
+                            font-weight: 600;
+                            cursor: pointer;
+                            transition: .3s ease all;
+
+                            &:hover {
+                                background-color: #000000;
+                                color: #1BD745;
+                                border: #1BD745 solid 1px; 
+                                transform: scale(1.1);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

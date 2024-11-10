@@ -1,0 +1,25 @@
+@import "../../components/Habilidades/habilidades";
+@import "../../components/TecsArea/tecsarea";
+
+.containerSkills{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.contentSkills{
+    width: 98vw;
+    height: 100%;
+    padding-left: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+    @include responsive(m){
+        padding-left: 20px;
+    }
+}

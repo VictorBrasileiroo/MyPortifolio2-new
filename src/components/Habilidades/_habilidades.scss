@@ -1,0 +1,93 @@
+.habilidadesContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    @include responsive(s){
+        align-items: flex-start;
+    }
+
+    h1 {
+        color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 56px;
+        font-weight: 700;
+        text-transform: uppercase;
+
+        @include responsive(s){
+            font-size: 36px;
+            position: relative;
+            left: -5%;
+            
+        }
+    }
+
+    .servicosContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding: 24px;
+        gap: 24px;
+
+        @include responsive(s){
+            width: 100%;
+            flex-direction: column;
+            gap: 40px;
+            position: relative;
+            left: -20%;
+        }
+
+        .servico{
+            background-color: #000;
+            width: 33%;
+            height: 450px;
+            border-radius: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 24px;
+
+
+            @include responsive(s){
+                width: 100%;
+                justify-content: flex-start;
+                align-items: flex-start;
+                left: -20%;
+            }
+
+            img{
+                width: 100%;
+                height: 120px;
+            }
+
+            h2{
+                color: #FFF;
+                font-family: Montserrat;
+                font-size: 24px;
+                font-weight: 700;
+                text-transform: uppercase;
+    
+
+                @include responsive (s){
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+
+            p{
+                color: #FFF;
+                font-family: Inter;
+                font-size: 16px;      
+                text-align: justify;        
+            }
+        }
+    }
+}
