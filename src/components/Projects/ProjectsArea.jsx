@@ -72,6 +72,31 @@ export default function ProjectsArea() {
         },
         {
             "id": 3,
+            "title": "ClientsRegistration",
+            "description": "StoreRegistration é um projeto React desenvolvido para o registro e manutenção de informações de clientes. O sistema é direcionado a pequenas empresas que precisam de uma solução prática para visualizar, registrar e editar facilmente os dados de seus clientes. Esta aplicação foi construída utilizando React.js e Node.js." [
+                {
+                    "name": "React",
+                    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+                },
+                {
+                    "name": "Node.js",
+                    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
+                },
+                {
+                    "name": "Tailwind",
+                    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg"
+                },
+                {
+                    "name": "Figma",
+                    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg"
+                }
+            ],
+            "github": "https://github.com/VictorBrasileiroo/MyPortifolio2.0",
+            "demo": "https://victorbrasileiroo.github.io/MyPortifolio2.0/",
+            "image": "https://raw.githubusercontent.com/VictorBrasileiroo/APIPortifolio/main/assets/id-7/img.svg"
+        },
+        {
+            "id": 7,
             "title": "My Portifolio 1.0",
             "description": "Esse Projeto é um portfólio pessoal e foi desenvolvido em React, utilizando Sass para uma estilização modular e eficiente, com o design previamente planejado no Figma. A estrutura do projeto é baseada nos principais pilares da web: HTML, CSS e JavaScript, garantindo uma interface moderna, responsiva e de fácil navegação, com foco na apresentação de habilidades e projetos de forma dinâmica e atraente.",
             "technologies": [
