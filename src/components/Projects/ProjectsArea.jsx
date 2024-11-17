@@ -73,7 +73,8 @@ export default function ProjectsArea() {
         {
             "id": 3,
             "title": "ClientsRegistration",
-            "description": "StoreRegistration é um projeto React desenvolvido para o registro e manutenção de informações de clientes. O sistema é direcionado a pequenas empresas que precisam de uma solução prática para visualizar, registrar e editar facilmente os dados de seus clientes. Esta aplicação foi construída utilizando React.js e Node.js." [
+            "description": "StoreRegistration é um projeto React desenvolvido para o registro e manutenção de informações de clientes. O sistema é direcionado a pequenas empresas que precisam de uma solução prática para visualizar, registrar e editar facilmente os dados de seus clientes. Esta aplicação foi construída utilizando React.js e Node.js.",
+            "technologies": [
                 {
                     "name": "React",
                     "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
