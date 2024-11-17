@@ -72,7 +72,7 @@ export default function ProjectsArea() {
         },
         {
             "id": 3,
-            "title": "ClientsRegistration",
+            "title": "Clients Registration",
             "description": "StoreRegistration é um projeto React desenvolvido para o registro e manutenção de informações de clientes. O sistema é direcionado a pequenas empresas que precisam de uma solução prática para visualizar, registrar e editar facilmente os dados de seus clientes. Esta aplicação foi construída utilizando React.js e Node.js.",
             "technologies": [
                 {
@@ -92,8 +92,8 @@ export default function ProjectsArea() {
                     "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg"
                 }
             ],
-            "github": "https://github.com/VictorBrasileiroo/MyPortifolio2.0",
-            "demo": "https://victorbrasileiroo.github.io/MyPortifolio2.0/",
+            "github": "https://github.com/VictorBrasileiroo/ProjectRegistration",
+            "demo": "https://projectregistrationstore.netlify.app/",
             "image": "https://raw.githubusercontent.com/VictorBrasileiroo/APIPortifolio/main/assets/id-7/img.svg"
         },
         {
